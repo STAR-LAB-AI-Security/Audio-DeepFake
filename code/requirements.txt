@@ -1,0 +1,5 @@
+# 语音隐匿与反欺骗基准（Baseline）运行依赖
+# 仅需 CPU 即可跑通攻击/防御终端脚本（numpy/scipy/sklearn，无 GPU、无网络依赖）
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3

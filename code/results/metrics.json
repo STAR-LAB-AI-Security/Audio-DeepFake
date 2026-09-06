@@ -1,0 +1,116 @@
+{
+  "benchmark": "语音隐匿与反欺骗",
+  "stage": "defense",
+  "seed": 42,
+  "threshold": 0.5,
+  "dataset": {
+    "train": 64,
+    "test": 64,
+    "n_bonafide_test": 32,
+    "n_spoof_test": 32,
+    "sample_rate": 16000
+  },
+  "defense": {
+    "name": "D_GMM",
+    "n_components": 32,
+    "num_ceps": 20,
+    "feat_dim": 60,
+    "train_seconds": 3.05,
+    "model_size_mb": 0.062,
+    "avg_inference_ms": 6.136,
+    "Efficiency": 1.0
+  },
+  "clean": {
+    "EER": 0.0,
+    "EER_threshold": 0.3454888454590095,
+    "AUC": 1.0,
+    "Accuracy@0.5": 0.9375,
+    "FRR": 0.0,
+    "FAR": 0.125,
+    "threshold": 0.5,
+    "n_bonafide": 32,
+    "n_spoof": 32
+  },
+  "robust": {
+    "EER": 0.09375,
+    "EER_threshold": 0.2972055808991929,
+    "AUC": 0.9407552083333334,
+    "Accuracy@0.5": 0.75,
+    "FRR": 0.0,
+    "FAR": 0.3333333333333333,
+    "threshold": 0.5,
+    "n_bonafide": 32,
+    "n_spoof": 96
+  },
+  "per_attack": [
+    {
+      "attack": "A_codec",
+      "ASR": 1.0,
+      "CS": 0.38999253724298993,
+      "valid_attack_rate": 1.0,
+      "mean_p_before": 0.7027836041194624,
+      "mean_p_after": 0.3127910668764725,
+      "EER_robust": 0.25,
+      "AUC_robust": 0.822265625,
+      "fidelity": {
+        "SI_SDR": 20.142683878905903,
+        "STOI": 0.9793840515233183,
+        "duration_ratio": 1.0,
+        "clipping_ratio_est": 0.0002291666666666667,
+        "silence_ratio_est": 0.0
+      },
+      "Q": 0.9772807077224079,
+      "CoreASR": 1.0,
+      "AttackScore": 97.7280707722408,
+      "wall_time_s": 4.5
+    },
+    {
+      "attack": "A_noise",
+      "ASR": 0.0,
+      "CS": 0.03959521285908263,
+      "valid_attack_rate": 1.0,
+      "mean_p_before": 0.7027836041194624,
+      "mean_p_after": 0.6931702875143984,
+      "EER_robust": 0.0,
+      "AUC_robust": 1.0,
+      "fidelity": {
+        "SI_SDR": 19.919244064033187,
+        "STOI": 0.9857261066811378,
+        "duration_ratio": 1.0,
+        "clipping_ratio_est": 0.0,
+        "silence_ratio_est": 0.0
+      },
+      "Q": 0.9836209206561185,
+      "CoreASR": 0.0,
+      "AttackScore": 0.0,
+      "wall_time_s": 4.02
+    },
+    {
+      "attack": "A_channel",
+      "ASR": 0.0,
+      "CS": 0.029766107383079988,
+      "valid_attack_rate": 1.0,
+      "mean_p_before": 0.7027836041194624,
+      "mean_p_after": 0.7237518751400616,
+      "EER_robust": 0.0,
+      "AUC_robust": 1.0,
+      "fidelity": {
+        "SI_SDR": 5.116452231939296,
+        "STOI": 0.9549701289788268,
+        "duration_ratio": 1.0,
+        "clipping_ratio_est": 0.0,
+        "silence_ratio_est": 0.0
+      },
+      "Q": 0.8020410266599314,
+      "CoreASR": 0.0,
+      "AttackScore": 0.0,
+      "wall_time_s": 4.67
+    }
+  ],
+  "scores": {
+    "CoreASR": 0.3333333333333333,
+    "AttackScore_mean": 32.576023590746935,
+    "DefenseScore": 94.423828125
+  },
+  "wall_time_s": 16.6
+}
