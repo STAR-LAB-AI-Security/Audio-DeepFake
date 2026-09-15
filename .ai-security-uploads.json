@@ -1,0 +1,11 @@
+{
+  "workDirId": "mu2k5dowpj1hef",
+  "scenario": "deepfake_audio",
+  "role": "solo_attack",
+  "version": 2,
+  "uploadedAt": "2026-09-15T10:57:43.160Z",
+  "files": [
+    "attack.py",
+    "meta.json"
+  ]
+}
