@@ -1,0 +1,18 @@
+{
+  "workDirId": "mu2epi6504vn3b",
+  "branch": "def-Sdev666",
+  "uploaderBranch": true,
+  "githubAccount": "Sdev-555",
+  "displayName": "孙浩文",
+  "scenario": "deepfake_audio",
+  "role": "solo_defense",
+  "userId": "18642cb8-f6c3-4e61-8e1e-6f2edf229e70",
+  "version": 2,
+  "originalZipName": "defense.py",
+  "archivedZip": false,
+  "uploadedAt": "2026-09-15T08:25:19.142Z",
+  "files": [
+    "defense.py"
+  ],
+  "skippedLargeFiles": []
+}
