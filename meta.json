@@ -1,0 +1,18 @@
+{
+  "workDirId": "mu2k5dowpj1hef",
+  "branch": "atk-admin",
+  "uploaderBranch": true,
+  "githubAccount": "wuyuema",
+  "displayName": "管理员",
+  "scenario": "deepfake_audio",
+  "role": "solo_attack",
+  "userId": "cd58fcaf-5dfa-46d9-84a1-c48a3d83628f",
+  "version": 2,
+  "originalZipName": "attack.py",
+  "archivedZip": false,
+  "uploadedAt": "2026-09-15T10:57:39.354Z",
+  "files": [
+    "attack.py"
+  ],
+  "skippedLargeFiles": []
+}
