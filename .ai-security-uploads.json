@@ -1,0 +1,11 @@
+{
+  "workDirId": "mu2due3po5jl2g",
+  "scenario": "deepfake_audio",
+  "role": "solo_defense",
+  "version": 1,
+  "uploadedAt": "2026-09-15T08:01:13.232Z",
+  "files": [
+    "defense.py",
+    "meta.json"
+  ]
+}
