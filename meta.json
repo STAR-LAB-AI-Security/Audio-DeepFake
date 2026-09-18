@@ -1,0 +1,22 @@
+{
+  "workDirId": "mu75xczfhascic",
+  "branch": "atk-Pasteaur",
+  "uploaderBranch": true,
+  "githubAccount": "Pasteaur",
+  "displayName": "李益勋",
+  "scenario": "deepfake_audio",
+  "role": "solo_attack",
+  "userId": "63c5c827-7250-4863-874c-586f4462cefe",
+  "version": 6,
+  "originalZipName": "submission_blank.zip",
+  "archivedZip": true,
+  "uploadedAt": "2026-09-18T16:18:19.829Z",
+  "files": [
+    "attack-blank.py",
+    "config.yaml",
+    "requirements.txt",
+    "solution.py",
+    "submission_blank.zip"
+  ],
+  "skippedLargeFiles": []
+}
