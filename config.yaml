@@ -1,0 +1,3 @@
+task: attack
+entry: attack-blank.py
+name: A_codec
