@@ -1,0 +1,18 @@
+{
+  "workDirId": "mu75nszm8m82wb",
+  "branch": "atk-Pasteaur",
+  "uploaderBranch": true,
+  "githubAccount": "Pasteaur",
+  "displayName": "李益勋",
+  "scenario": "deepfake_audio",
+  "role": "solo_attack",
+  "userId": "63c5c827-7250-4863-874c-586f4462cefe",
+  "version": 3,
+  "originalZipName": "attack.py",
+  "archivedZip": false,
+  "uploadedAt": "2026-09-18T16:10:54.103Z",
+  "files": [
+    "attack.py"
+  ],
+  "skippedLargeFiles": []
+}
