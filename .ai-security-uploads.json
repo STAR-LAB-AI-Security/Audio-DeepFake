@@ -1,0 +1,15 @@
+{
+  "workDirId": "mu75xczfhascic",
+  "scenario": "deepfake_audio",
+  "role": "solo_attack",
+  "version": 6,
+  "uploadedAt": "2026-09-18T16:18:31.219Z",
+  "files": [
+    "attack-blank.py",
+    "config.yaml",
+    "requirements.txt",
+    "solution.py",
+    "submission_blank.zip",
+    "meta.json"
+  ]
+}
